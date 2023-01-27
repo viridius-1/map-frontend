@@ -12,7 +12,7 @@ function App() {
 
     const loadData = async () => {
        // let response = await fetch("/cities"); // in case of 5000
-        let response =await fetch("http://localhost:5000/cities"); 
+        let response =await fetch("https://map-api-6psm.onrender.com/cities"); 
         response = await response.json();
         setCity(response.cities);
         // console.log(response.cities);
