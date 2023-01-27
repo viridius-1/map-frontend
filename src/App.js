@@ -8,6 +8,7 @@ function App() {
     const [currentPage, setCurrentPage] = useState(1);
     const [postsPerPage, setPostsPerPage] = useState(10);
 
+//    "build": "react-scripts build",
 
     const loadData = async () => {
        // let response = await fetch("/cities"); // in case of 5000
